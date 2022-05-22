@@ -30,6 +30,17 @@ the inputs:
 
 
 <br>
+
+## inputs:
+ - `HTML5`
+ - `CSS3`
+ - `Bootstrap`
+ - `JavaScript`
+ - `DOM Manipulation`
+ - `Events`
+ - `LocalStorage`
+ - `JSON`
+
 ## Contains:
 - 'HTML5'
 - 'CSS3'
