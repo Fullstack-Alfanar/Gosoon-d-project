@@ -1,7 +1,7 @@
 
 <h2 align="center"><u>task board</u></h2>
 
-<h4>The goal of TaskBoard is to provide a simple and clean interface to a functional and minimal application for keeping track of tasks</h4>
+<h4>The goal of TaskBoard is to provide a simple and clean interface to a functional and minimal application for keeping track of tasks.</h4>
 <h4>The tasks added from left to right, and the task content is placed in the center.</h4>
 
 
