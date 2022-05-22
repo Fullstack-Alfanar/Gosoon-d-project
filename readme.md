@@ -31,14 +31,14 @@ the inputs:
 
 <br>
 ## Contains:
-- HTML5
-- CSS3
-- Bootstrap
-- JavaScript
-- DOM Manipulation
-- Events
-- LocalStorage
-- JSON 
+- 'HTML5'
+- 'CSS3'
+- 'Bootstrap'
+- 'JavaScript'
+- 'DOM Manipulation'
+- 'Events'
+- 'LocalStorage'
+- 'JSON '
 
  <br>
 ## Project Specifications:
