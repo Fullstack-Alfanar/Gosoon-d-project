@@ -42,6 +42,7 @@ the inputs:
  - `JSON`
 
  <br>
+ 
 ## Project Specifications:
 - `User can add notes.`
 - `User can delete notes.`
@@ -50,6 +51,7 @@ the inputs:
 - `Input validation with alert message.`
 
 <br>
+
 ## How to use
  - `use the http repository`
  - `use my deploy`
