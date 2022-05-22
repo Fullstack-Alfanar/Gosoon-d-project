@@ -26,7 +26,7 @@ the inputs:
 
 <br>
 
-* **Start of the site:** You can add and delete notes, You will receive an alert message to displaying a popup to take the input value.
+* **Start of the site:** the user can add and delete notes,the user will receive an alert message and displaying a popup to take the input value.
 
 
 <br>
