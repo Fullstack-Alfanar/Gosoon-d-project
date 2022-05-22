@@ -31,7 +31,7 @@ the inputs:
 
 <br>
 
-## inputs:
+## Contains:
  - `HTML5`
  - `CSS3`
  - `Bootstrap`
@@ -41,23 +41,13 @@ the inputs:
  - `LocalStorage`
  - `JSON`
 
-## Contains:
-- 'HTML5'
-- 'CSS3'
-- 'Bootstrap'
-- 'JavaScript'
-- 'DOM Manipulation'
-- 'Events'
-- 'LocalStorage'
-- 'JSON '
-
  <br>
 ## Project Specifications:
-1. User can add notes.
-2. User can delete notes.
-3. Notes will be save in local storage.
-4. User can add date and time .
-5. Input validation with alert message.
+- `User can add notes.`
+- `User can delete notes.`
+- `Notes will be save in local storage.`
+- `User can add date and time.`
+- `Input validation with alert message.`
 
 <br>
 ## How to use
