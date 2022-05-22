@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+@media only screen and(max-width:750px){
+
+}
+@media only screen and(max-width:1200px){
+
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: #0a0909;
+  padding: 15px;
+  background: #d7def0;
+  display: block;
+  margin: 15px auto;
+  height: 76px;
+}
+
+h1:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+body {
+  width: 50%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.container {
+  text-align: center;
+  background: #6c85c945;
+  border-radius: 25px;
+  width: 100%;
+  padding: 25px;
+  margin: 96px auto;
+
+}
+
+#task {
+  width: 298px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 22px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+label {
+  font-size: 22px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+textarea#task {
+  margin-top: 8px;
+  height: 100px;
+  width: 500px;
+  border-radius: 30px;
+  border: none;
+  padding: 15px;
+  box-sizing: content-box;
+}
+
+#date,#time {
+ 
+  font-size: 22px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 500px;
+  border-radius: 30px;
+  border: none;
+  padding: 15px;
+  box-sizing: content-box;
+}
+
+#date:focus,
+#time:focus,
+textarea#task:focus,
+.grid-item:focus {
+  border: 3px solid #4f67a7;
+}
+
+#btns {
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#clear,
+#save {
+  text-align: center;
+    width: 24%;
+    border-radius: 10px;
+    margin: 0 75%;
+    cursor: pointer;
+    font-size: 30px;
+    color: #1a1c19;
+    border: 2px solid black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #d7def0;
+  padding: 10px;
+  width: 120%;
+  margin-left: -9%;
+  margin-top: 5%;
+
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px 6px;
+  animation-name: FadeIn;
+  animation-duration: 3s;
+  transition-timing-function: linear;
+  transition: 30s;
+}
+
+.fade-in-text {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+button.close {
+  width: 10%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
